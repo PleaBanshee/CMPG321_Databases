@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="740A3750-24C6-6E0F-FD48-39491AB9641A" name="LGA">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:20:10 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LGA_Code" id="7BE4E50A-A6C9-8AE1-D52B-BD3CD8B28C3B">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:20:20 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LGA_Name" id="895CAD95-8F9F-895D-D759-7B027959E277">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:20:30 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LGA_Area" id="06F4CB0F-DB74-8988-B947-07134ED599C0">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:21:13 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LGA_Size" id="A7CB6082-F755-7B2F-036C-A1C298BF9931">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:21:29 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LGA_CEO" id="EE0B3D70-43C7-FCF6-5D9D-2BFC1B21F460">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:22:42 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LGA_ContactNum" id="E4C5CF72-E420-C9D9-1E62-377B897F81BA">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:22:57 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CC2955B-09D2-5892-853A-83DA0F8D2F9B" name="LGA_Code_PK">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:23:41 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<newElementsIDs>7BE4E50A-A6C9-8AE1-D52B-BD3CD8B28C3B</newElementsIDs>
+<usedAttributes>
+<attributeRef>7BE4E50A-A6C9-8AE1-D52B-BD3CD8B28C3B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

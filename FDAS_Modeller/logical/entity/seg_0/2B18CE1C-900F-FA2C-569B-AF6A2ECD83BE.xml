@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2B18CE1C-900F-FA2C-569B-AF6A2ECD83BE" name="Fire_Event">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:03:36 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Event_ID" id="6D0BE962-AB61-ADF3-EF11-F279F1663595">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:05:57 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_Name" id="07D4628B-9646-BE9C-87CD-EE1E707341BD">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:06:27 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_Lat" id="FF97A146-9419-4B25-6472-5C599FEA5359">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:06:54 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_Long" id="5DFEC191-0D43-4B78-04F1-FF96BD8D2852">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:09:16 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_AreaSize" id="2F175DE1-2846-1D05-563F-D797431E30FA">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:09:45 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_IsTriggered" id="F863DAB1-AC3F-B4B3-3CB9-3651F1C61DAE">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:10:03 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_LivesLost" id="7159CAB0-B847-3065-19A5-9F52F91C6577">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:11:31 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB64FE70-9729-AA33-E207-A7623C563AA8" name="Event_ID_PK">
+<createdBy>shene</createdBy>
+<createdTime>2021-09-14 09:12:06 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<newElementsIDs>6D0BE962-AB61-ADF3-EF11-F279F1663595</newElementsIDs>
+<usedAttributes>
+<attributeRef>6D0BE962-AB61-ADF3-EF11-F279F1663595</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
