@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E63FDEA-E840-93EB-961B-2FE52EE7EA68" name="BUSINESS">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-14 14:22:12 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Owner_ID" id="43FF0B7C-DB6D-9C71-60FD-E827972B80A4">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-14 14:22:24 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bus_Name" id="901D1B29-31EB-AC2E-49A1-B1C61432ADA9">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-14 14:22:43 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bus_Type" id="9FFEFDE4-97EE-39B3-0E34-760F7A2B230C">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-14 14:23:06 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Bus_Reg_Num" id="0B4F6576-4B76-B6B1-CADA-F93A7111DBE4">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-14 14:23:32 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Owner_ID1" id="D35F9BA7-5A80-4159-F737-688D8898E040">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-14 14:24:44 UTC</createdTime>
+<generatorID>E47AC6E9-75BD-EC14-3C21-D153F6AEF727</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referedAttribute>2A5C5FA9-A6EA-22C4-CD89-598B849C6303</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA4C29FF-F5FD-78B7-A2F9-1DC4A8CD9866" name="Business_PK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-14 14:24:16 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<newElementsIDs>43FF0B7C-DB6D-9C71-60FD-E827972B80A4,E47AC6E9-75BD-EC14-3C21-D153F6AEF727</newElementsIDs>
+<usedAttributes>
+<attributeRef>43FF0B7C-DB6D-9C71-60FD-E827972B80A4</attributeRef>
+<attributeRef>D35F9BA7-5A80-4159-F737-688D8898E040</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
