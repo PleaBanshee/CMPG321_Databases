@@ -5,4 +5,9 @@
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>4F547663-6122-6A94-A6D3-B729EFEBC992</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4F547663-6122-6A94-A6D3-B729EFEBC992">
+<designStoragePath>C:\Users\z3sto\Desktop\NWU\CMPG 321\Project\CMPG321_Databases-main\FDAS_Modeller</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

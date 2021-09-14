@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_20" directorySegmentName="seg_0" id="951D35BA-6791-C340-E8C7-866A467CF47D">
+<createdBy>z3sto</createdBy>
+<createdTime>2021-09-14 22:08:18 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>2A0CC965-476B-7E0A-B03F-D1BCC6256DAB</importedID>
+<sourcePk>6765D4BF-3C03-FDFD-0116-C3346618B172</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB4F4E8B-294C-5D0C-A80C-D90D75D80E06</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3C92E30D-4DB5-8873-837A-CA38CFE88FC7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
