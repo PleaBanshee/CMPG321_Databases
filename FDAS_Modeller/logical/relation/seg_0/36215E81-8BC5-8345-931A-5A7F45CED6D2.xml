@@ -5,12 +5,13 @@
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <importedID>F0F4D54F-0E13-0477-36EE-2CB9D4C53A06</importedID>
 <sourcePk>6765D4BF-3C03-FDFD-0116-C3346618B172</sourcePk>
+<targetPk>DFEB77A1-3026-F615-597D-5F1F9356C569</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>CB4F4E8B-294C-5D0C-A80C-D90D75D80E06</sourceEntity>
-<targetCardinalityString>*</targetCardinalityString>
+<targetCardinalityString>1</targetCardinalityString>
 <targetEntity>8B52F973-6AE1-EB14-3FD6-978B6C4E23EA</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

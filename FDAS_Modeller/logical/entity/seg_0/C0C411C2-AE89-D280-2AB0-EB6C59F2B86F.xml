@@ -20,8 +20,8 @@
 <referedAttribute>6D0BE962-AB61-ADF3-EF11-F279F1663595</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5 CHAR</dataTypeSize>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LGA_Code1" id="7150464F-B394-269A-3FC4-BC137681BEFB">
@@ -32,15 +32,14 @@
 <referedAttribute>7BE4E50A-A6C9-8AE1-D52B-BD3CD8B28C3B</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Event_Date" id="72FCBA98-7DFC-A99F-54AB-AD9DA3942CA1">
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:38:16 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT008</logicalDatatype>
@@ -52,6 +51,7 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:45:23 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
 <newElementsIDs>C298FE13-AC24-9521-6D6E-C3EBE415A22B,7150464F-B394-269A-3FC4-BC137681BEFB</newElementsIDs>
 <usedAttributes>
 <attributeRef>C298FE13-AC24-9521-6D6E-C3EBE415A22B</attributeRef>
