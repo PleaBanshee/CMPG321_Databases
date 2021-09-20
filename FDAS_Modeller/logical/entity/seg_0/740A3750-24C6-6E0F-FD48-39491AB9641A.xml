@@ -16,18 +16,16 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:20:20 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LGA_Name" id="895CAD95-8F9F-895D-D759-7B027959E277">
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:20:30 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -38,7 +36,6 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:21:13 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -49,7 +46,6 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:21:29 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -60,23 +56,21 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:22:42 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LGA_ContactNum" id="E4C5CF72-E420-C9D9-1E62-377B897F81BA">
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:22:57 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
