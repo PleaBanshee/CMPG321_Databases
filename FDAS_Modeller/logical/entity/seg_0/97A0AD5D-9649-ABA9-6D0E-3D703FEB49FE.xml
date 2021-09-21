@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97A0AD5D-9649-ABA9-6D0E-3D703FEB49FE" name="DAMAGE_COST">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:32:09 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Building_ID" id="20598697-5000-1042-3B80-2DBC0DE7E2C5">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:32:46 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prop_ID" id="9CAD3BC4-03AF-BE08-63BE-08F44FEC7D37">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:34:01 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_ID" id="34D463B2-7B3E-2CAA-B964-6C38EC4980CB">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:34:38 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Assessor_ID" id="6CC56131-74CE-E1A4-98A3-199362747AB7">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:35:02 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LGA_Code" id="346BED59-DBF1-4F26-BD50-15ECACFF1874">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:35:36 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Damage_Cost" id="3083E897-C7A4-B0A7-A7CF-4CC597319B60">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:38:24 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Is_Destroyed" id="AD6D5F8D-4D77-4A37-0B9D-5143BF7D6084">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:39:10 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Building_ID1" id="F55C0EE2-485E-03F6-E174-903C718738E4">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:43:15 UTC</createdTime>
+<generatorID>977AF25E-704F-3DF8-0049-6D88942921C9</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referedAttribute>87CA23FF-E236-8147-8FDC-ACBFD175D254</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prop_ID1" id="4AA212BC-8C95-8D2B-3E4D-E2A41790FD85">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:43:15 UTC</createdTime>
+<generatorID>977AF25E-704F-3DF8-0049-6D88942921C9</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referedAttribute>A2E1EC6C-9F68-C98E-3B59-6FA6772C36EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Assessor_ID1" id="F0400A34-F597-9E7D-E6D3-B7C5D0D2851B">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:54:22 UTC</createdTime>
+<generatorID>0C7B20C0-54AC-32EE-056D-4FDCFD83C5BC</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referedAttribute>9D1D0595-2778-C3AF-C61E-49614D3DD616</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Insurance_Code" id="00B8B785-FB6B-A06A-21D7-8F9EC678735A">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:55:29 UTC</createdTime>
+<generatorID>977AF25E-704F-3DF8-0049-6D88942921C9</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referedAttribute>06C70C42-D9D9-BA8A-8613-0BF739212D4D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LGA_Code1" id="F71B7016-89C0-ABA1-9D03-B426D041FF62">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:56:08 UTC</createdTime>
+<generatorID>314DBE79-E295-55B9-5C2A-D9B6F8F14118</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referedAttribute>7BE4E50A-A6C9-8AE1-D52B-BD3CD8B28C3B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Event_ID1" id="834B63EB-FC2B-2E45-4C59-2C58D2501A14">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:57:06 UTC</createdTime>
+<generatorID>CF572AA5-E90A-1C6D-41C1-9E2AD4B836CA</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referedAttribute>6D0BE962-AB61-ADF3-EF11-F279F1663595</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB31FC9F-30F6-E67D-0D72-017BA636A184" name="DAMAGE_COST PK">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:33:06 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>20598697-5000-1042-3B80-2DBC0DE7E2C5</attributeRef>
+<attributeRef>9CAD3BC4-03AF-BE08-63BE-08F44FEC7D37</attributeRef>
+<attributeRef>34D463B2-7B3E-2CAA-B964-6C38EC4980CB</attributeRef>
+<attributeRef>F0400A34-F597-9E7D-E6D3-B7C5D0D2851B</attributeRef>
+<attributeRef>F71B7016-89C0-ABA1-9D03-B426D041FF62</attributeRef>
+<attributeRef>834B63EB-FC2B-2E45-4C59-2C58D2501A14</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

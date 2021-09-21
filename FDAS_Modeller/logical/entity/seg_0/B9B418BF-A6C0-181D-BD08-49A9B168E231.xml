@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9B418BF-A6C0-181D-BD08-49A9B168E231" name="ASSESSOR_HISTORY">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:48:32 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Insurance_Code" id="074CEC73-D4DE-45CF-85B0-63452A028534">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:49:07 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Assessor_ID" id="565534D2-78AC-29F9-CEDB-62733942434D">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:49:24 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Start_Date" id="2533E03B-B341-8B89-C19B-73138CCC82BF">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:50:04 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End_Date" id="95C1DA32-EEDA-FFDA-3EB9-AC1D92CB47B1">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:50:30 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Assessor_ID1" id="7F4408A7-3097-F941-BFEE-1E1E4D64ECC0">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:54:39 UTC</createdTime>
+<generatorID>CBCCC57A-7F57-C10E-94D0-0A3D1F48AF5E</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referedAttribute>9D1D0595-2778-C3AF-C61E-49614D3DD616</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Insurance_Code1" id="8F365EC0-F4FD-BE78-53E8-ACFD88E8A4D1">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:54:54 UTC</createdTime>
+<generatorID>1400D954-C4F0-DCFD-F614-0695F3FA2613</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referedAttribute>04075F51-6A9D-A51B-5626-FC71043995ED</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8FAE38C2-888C-0695-DF74-3EA7E381C6B3" name="ASSESSOR_HISTORY PK">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-09-21 17:49:22 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>074CEC73-D4DE-45CF-85B0-63452A028534</attributeRef>
+<attributeRef>565534D2-78AC-29F9-CEDB-62733942434D</attributeRef>
+<attributeRef>7F4408A7-3097-F941-BFEE-1E1E4D64ECC0</attributeRef>
+<attributeRef>8F365EC0-F4FD-BE78-53E8-ACFD88E8A4D1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
