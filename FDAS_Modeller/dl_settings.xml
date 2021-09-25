@@ -5,7 +5,7 @@
 	<automatic_uk_generation value="false" />
 	<automatic_fk_generation value="false" />
 	<preserve_ddl_generation_options value="false" />
-	<use_global_design_level_settings value="false" />
+	<use_global_design_level_settings value="true" />
 	<use_preferred_classification_types value="false" />
 	<substitution_patterns>
 	</substitution_patterns>

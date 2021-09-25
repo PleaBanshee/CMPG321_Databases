@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD928A3D-D1FC-65C4-87CA-62197E4BB087" name="Property_Type">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-24 17:21:11 UTC</createdTime>
+<generatorID>8B52F973-6AE1-EB14-3FD6-978B6C4E23EA</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Type_ID" id="A674B64E-C246-A8FA-BD3D-DBAF5D1DAE82">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-24 17:21:11 UTC</createdTime>
+<generatorID>D185C68C-B485-CBAE-F96A-7EC9AF447B3E</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_Type" id="3D8AAAA0-B531-37A6-B16E-9F22EA19BC94">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-24 17:21:11 UTC</createdTime>
+<generatorID>AD4B4377-8E4D-6CB0-8620-CA585363548F</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8703916-2532-F909-2990-19C1F565F783" name="Property_Type_PK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-24 17:21:11 UTC</createdTime>
+<generatorID>DFEB77A1-3026-F615-597D-5F1F9356C569</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A674B64E-C246-A8FA-BD3D-DBAF5D1DAE82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
