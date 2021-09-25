@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A789641-49FF-FA86-A868-DD6579C6911A" containerWithKeyObject="B42A9BFF-458C-C4D1-F535-C5B5A96D5D30" localFKIndex="5CAE426B-F399-FDCC-3AAD-E2F1BA7A8F7D" name="DAMAGE_COST_Fire_Event_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>CF572AA5-E90A-1C6D-41C1-9E2AD4B836CA</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referredTableLongName>Fire_Event</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC8EC417-5D5A-5727-1351-455EEA7F8979</referredTableID>
+<keyObject>EA6DE97F-A8FB-A1B9-EF95-559933007B92</keyObject>
+<referredKeyID>EA6DE97F-A8FB-A1B9-EF95-559933007B92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Event_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

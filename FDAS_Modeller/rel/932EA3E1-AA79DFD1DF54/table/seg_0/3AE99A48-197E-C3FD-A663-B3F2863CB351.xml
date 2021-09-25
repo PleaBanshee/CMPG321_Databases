@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3AE99A48-197E-C3FD-A663-B3F2863CB351" name="ASSESSOR">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>85BE76C2-035D-172D-010C-A4BDFF1C9B62</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Assessor_ID" id="C44B8C3E-202D-8AC0-D02B-CEBF247772CF">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>9D1D0595-2778-C3AF-C61E-49614D3DD616</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Assessor_Name" id="40AA0240-203E-BC3F-C262-53EBFBE8EC28">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>0133AE5B-B138-3269-829B-48A4DF4D88DE</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Assessor_Surname" id="681D3CC2-CF16-9946-0FA2-23CC1A9FF328">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>56307046-9AD8-2E8F-BE82-4BE11F1AAAFD</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Assessor_ContactNum" id="D0344C93-A279-89F7-D27D-A30872F5CCD8">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>52685554-9466-1B54-D377-CC7B03DF615A</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E61769C-8B3E-9BCF-A2D0-D14E6906E86F" name="ASSESSOR_PK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>6A660CCB-DA66-03B8-9D82-E029137FD2D9</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C44B8C3E-202D-8AC0-D02B-CEBF247772CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

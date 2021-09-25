@@ -1,0 +1,262 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B42A9BFF-458C-C4D1-F535-C5B5A96D5D30" name="DAMAGE_COST">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>97A0AD5D-9649-ABA9-6D0E-3D703FEB49FE</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Building_ID" id="2BF93388-171D-0E43-D2DF-EE0A72D7CAF9">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>20598697-5000-1042-3B80-2DBC0DE7E2C5</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_ID" id="B8EE78D4-B3B8-0079-A925-A772921A0C61">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>9CAD3BC4-03AF-BE08-63BE-08F44FEC7D37</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Event_ID" id="B8F2F31A-02F1-E417-A2DC-CD992F01B61E">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>34D463B2-7B3E-2CAA-B964-6C38EC4980CB</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Assessor_ID" id="40D0AAB7-C66B-DCDD-676D-CEE3F678A046">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>6CC56131-74CE-E1A4-98A3-199362747AB7</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LGA_Code" id="B1AE3696-A9DC-C1E6-C13C-607526A76878">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>346BED59-DBF1-4F26-BD50-15ECACFF1874</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Damage_Cost" id="D85522BF-4527-C7DC-EAF5-66642323272A">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>3083E897-C7A4-B0A7-A7CF-4CC597319B60</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Is_Destroyed" id="02F953F6-84DD-B5D8-1F21-5DC14137C2F9">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>AD6D5F8D-4D77-4A37-0B9D-5143BF7D6084</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Building_Building_ID" id="D2AF7542-532F-BA95-D375-B4EB405EFB73">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>F55C0EE2-485E-03F6-E174-903C718738E4</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42D8490C-6716-2C90-4AD2-5601036C3AE1" referredColumn="A843B2C2-1FA8-AC99-2E96-07BB22A07ED2"/>
+</associations>
+</Column>
+<Column name="Building_Property_Prop_ID" id="7794B8FF-EE64-6587-9E65-01B8D0EFC030">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>4AA212BC-8C95-8D2B-3E4D-E2A41790FD85</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42D8490C-6716-2C90-4AD2-5601036C3AE1" referredColumn="E0812291-42D7-9373-9B2D-D930889F8570"/>
+</associations>
+</Column>
+<Column name="ASSESSOR_Assessor_ID" id="E53730DA-A33E-6BBF-E933-666E2B1CBF03">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>F0400A34-F597-9E7D-E6D3-B7C5D0D2851B</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B472A56-E33E-C14A-5F10-CEF32B921851" referredColumn="C44B8C3E-202D-8AC0-D02B-CEBF247772CF"/>
+</associations>
+</Column>
+<Column name="Building_INSURANCE_Insurance_Code" id="8DE6A07F-A45A-47FB-4F76-9A06CEB65747">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>00B8B785-FB6B-A06A-21D7-8F9EC678735A</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42D8490C-6716-2C90-4AD2-5601036C3AE1" referredColumn="7EF57743-E03D-BB8C-1867-1063B5B99351"/>
+</associations>
+</Column>
+<Column name="LGA_LGA_Code" id="9A074C0F-4653-50C6-52AB-244F4C1EA1F6">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>F71B7016-89C0-ABA1-9D03-B426D041FF62</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DD04E16-DBB2-AAC4-3FDA-F5D944381625" referredColumn="6490F289-1BED-D76A-2308-518348879166"/>
+</associations>
+</Column>
+<Column name="Fire_Event_Event_ID" id="F0FA906E-4496-8C0C-E8E2-37CCD175D09A">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>834B63EB-FC2B-2E45-4C59-2C58D2501A14</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A789641-49FF-FA86-A868-DD6579C6911A" referredColumn="E89350E7-768B-73F2-A283-432B223AE426"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1FA4DC0-837A-5C36-8732-6E60E4276D70" name="DAMAGE_COST_PK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>BB31FC9F-30F6-E67D-0D72-017BA636A184</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BF93388-171D-0E43-D2DF-EE0A72D7CAF9"/>
+<colUsage columnID="B8EE78D4-B3B8-0079-A925-A772921A0C61"/>
+<colUsage columnID="B8F2F31A-02F1-E417-A2DC-CD992F01B61E"/>
+<colUsage columnID="E53730DA-A33E-6BBF-E933-666E2B1CBF03"/>
+<colUsage columnID="9A074C0F-4653-50C6-52AB-244F4C1EA1F6"/>
+<colUsage columnID="F0FA906E-4496-8C0C-E8E2-37CCD175D09A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32247FCF-FB7B-65B5-03F6-5F1A28868608" name="DAMAGE_COST_ASSESSOR_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>0C7B20C0-54AC-32EE-056D-4FDCFD83C5BC</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E53730DA-A33E-6BBF-E933-666E2B1CBF03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DD7E141-57C0-C11C-0306-475EB06EDA18" name="DAMAGE_COST_LGA_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>314DBE79-E295-55B9-5C2A-D9B6F8F14118</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A074C0F-4653-50C6-52AB-244F4C1EA1F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CAE426B-F399-FDCC-3AAD-E2F1BA7A8F7D" name="DAMAGE_COST_Fire_Event_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>CF572AA5-E90A-1C6D-41C1-9E2AD4B836CA</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0FA906E-4496-8C0C-E8E2-37CCD175D09A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B92DD729-8CE9-610D-5DBF-91ACD4FA257B" name="DAMAGE_COST_Building_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>977AF25E-704F-3DF8-0049-6D88942921C9</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2AF7542-532F-BA95-D375-B4EB405EFB73"/>
+<colUsage columnID="7794B8FF-EE64-6587-9E65-01B8D0EFC030"/>
+<colUsage columnID="8DE6A07F-A45A-47FB-4F76-9A06CEB65747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

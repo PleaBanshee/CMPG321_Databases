@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B472A56-E33E-C14A-5F10-CEF32B921851" containerWithKeyObject="B42A9BFF-458C-C4D1-F535-C5B5A96D5D30" localFKIndex="32247FCF-FB7B-65B5-03F6-5F1A28868608" name="DAMAGE_COST_ASSESSOR_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>0C7B20C0-54AC-32EE-056D-4FDCFD83C5BC</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<referredTableLongName>ASSESSOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3AE99A48-197E-C3FD-A663-B3F2863CB351</referredTableID>
+<keyObject>5E61769C-8B3E-9BCF-A2D0-D14E6906E86F</keyObject>
+<referredKeyID>5E61769C-8B3E-9BCF-A2D0-D14E6906E86F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Assessor_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

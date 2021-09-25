@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="779F0D33-DBCA-3069-AF4B-EFA49901B377" name="Property">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>CB4F4E8B-294C-5D0C-A80C-D90D75D80E06</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prop_ID" id="97C00BF8-60A0-E217-D128-8F2BF2C0D7D4">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>2C8BC7CD-7BA3-1014-E22F-2C6FF46168E5</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_City" id="CCD0FEA5-5731-7A1B-ACBD-B07E5C8270D7">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>2FB63002-8352-E978-2E95-6F258D6F3977</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_Suburb" id="421222EB-747A-2264-FD60-8FAE67A7E918">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>8D980A5C-C997-933D-F898-819B106B2C98</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_StreetName" id="BF01F289-3357-769C-131D-617C29B2F28D">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>77F79423-720D-E7F2-E472-010C4662318C</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_Size" id="CD8AA18E-052B-4F7F-8397-1A06CC08EB96">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>57C4E637-35A4-F476-B290-37DBDC5D4A48</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LGA_LGA_Code" id="8D02D6B8-6A5C-72D1-794B-29A391F05BFD">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>876233C2-C543-9EAD-322D-EBB7E8F4A534</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36435C29-4B97-B75A-FDB0-B338381A2C4D" referredColumn="6490F289-1BED-D76A-2308-518348879166"/>
+</associations>
+</Column>
+<Column name="Property_Type_Type_ID" id="686B30F2-AC12-0DBD-E1A9-2FFD3CAF4A44">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>1792D613-4134-D715-4ECB-1175A5DCDD9D</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BB55C32-64B2-23E1-845D-4E0BF7FDC54A" referredColumn="21FD6715-F785-156C-4312-73BF8AC3090E"/>
+</associations>
+</Column>
+<Column name="OWNER_Owner_ID" id="5ADEF15E-9E2C-37E8-2F82-43ABA7E1BF23">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>27AD3F7D-16E6-80AE-5937-83DD09D2E85F</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC9AE173-F947-5E12-C436-DB5A1A48F627" referredColumn="B95B45F4-8A65-148B-1D0F-3A82932C6321"/>
+</associations>
+</Column>
+<Column name="OWNER_Owner_Type1" id="6679DF8F-A15E-74A0-6354-00539BFC45ED">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>CF4A5553-5EE4-ABE0-1AF5-29FB12CE398B</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC9AE173-F947-5E12-C436-DB5A1A48F627" referredColumn="63DE8757-B929-7EB4-D044-9938B33B3B88"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1C85917-6167-F2F2-C983-5406B6065208" name="Property_PK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>6765D4BF-3C03-FDFD-0116-C3346618B172</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97C00BF8-60A0-E217-D128-8F2BF2C0D7D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A07E531A-2231-FB20-AD03-64165B031CE1" name="Property_OWNER_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>66F48EA5-F1CD-E890-57FF-648604905A59</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADEF15E-9E2C-37E8-2F82-43ABA7E1BF23"/>
+<colUsage columnID="6679DF8F-A15E-74A0-6354-00539BFC45ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92A6C00D-4FA4-A0D2-180E-9AA9AF56CD10" name="Property_Property_Type_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>36215E81-8BC5-8345-931A-5A7F45CED6D2</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="686B30F2-AC12-0DBD-E1A9-2FFD3CAF4A44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59BEF69D-9EA9-C6C6-E710-6A7789C89D4A" name="Property_LGA_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>945876E4-1039-A9B2-1B57-A6F7C2A6D677</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D02D6B8-6A5C-72D1-794B-29A391F05BFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

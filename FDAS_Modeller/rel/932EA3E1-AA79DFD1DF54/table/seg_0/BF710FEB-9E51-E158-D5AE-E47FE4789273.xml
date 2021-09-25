@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF710FEB-9E51-E158-D5AE-E47FE4789273" name="Building">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>3C92E30D-4DB5-8873-837A-CA38CFE88FC7</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Building_ID" id="A843B2C2-1FA8-AC99-2E96-07BB22A07ED2">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>87CA23FF-E236-8147-8FDC-ACBFD175D254</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_Approved" id="E0D2DB83-9989-0F3E-98E8-E28E085DE3A5">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>DA15C9CC-F04E-7DD1-ACE3-D699627C549F</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Building_Size" id="C2C9A1A4-AB31-6D8F-2F25-6660842624A4">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>D0FC77F5-7AF4-28CD-F64D-8B0810DF253A</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Building_Class" id="32CF580B-973D-97D1-9F36-A02C2F34C557">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>BCF6D5EA-B274-660F-811B-84724E9146D8</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Property_Prop_ID" id="E0812291-42D7-9373-9B2D-D930889F8570">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>A2E1EC6C-9F68-C98E-3B59-6FA6772C36EF</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B665AD8-CDD5-216F-6A50-15A7B8CB19E4" referredColumn="97C00BF8-60A0-E217-D128-8F2BF2C0D7D4"/>
+</associations>
+</Column>
+<Column name="INSURANCE_Insurance_Code" id="7EF57743-E03D-BB8C-1867-1063B5B99351">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>06C70C42-D9D9-BA8A-8613-0BF739212D4D</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="806D8D7A-B87E-3D30-9B22-9EA2A327EE9C" referredColumn="92A091D3-9346-A7A0-E53A-CF34456C56DC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E2E2351-5A59-4A86-A28F-CEDE09153AE2" name="Building_PK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>EB99E82A-4950-80A6-D5E8-2479C15565E1</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A843B2C2-1FA8-AC99-2E96-07BB22A07ED2"/>
+<colUsage columnID="E0812291-42D7-9373-9B2D-D930889F8570"/>
+<colUsage columnID="7EF57743-E03D-BB8C-1867-1063B5B99351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95AC0165-F57A-1CAF-0275-4607EA0518A2" name="Building_INSURANCE_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>5D16231A-8CA6-E056-FC8C-A930C1F1DC39</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EF57743-E03D-BB8C-1867-1063B5B99351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="252AF4F9-F627-65F7-CE42-B57ADA977776" name="Building_Property_FK">
+<createdBy>Liza</createdBy>
+<createdTime>2021-09-25 08:25:48 UTC</createdTime>
+<generatorID>951D35BA-6791-C340-E8C7-866A467CF47D</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0812291-42D7-9373-9B2D-D930889F8570"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
