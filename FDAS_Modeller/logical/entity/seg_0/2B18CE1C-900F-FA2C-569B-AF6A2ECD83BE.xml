@@ -3,6 +3,10 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:03:36 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="932EA3E1-1643-EEDB-DEDA-AA79DFD1DF54" value="true"/>
+<item key="64B10CE2-47DA-E405-B7FC-8E781498443D" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +20,10 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:05:57 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="932EA3E1-1643-EEDB-DEDA-AA79DFD1DF54" value="true"/>
+<item key="64B10CE2-47DA-E405-B7FC-8E781498443D" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -26,16 +34,24 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:06:27 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="932EA3E1-1643-EEDB-DEDA-AA79DFD1DF54" value="true"/>
+<item key="64B10CE2-47DA-E405-B7FC-8E781498443D" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Event_Lat" id="FF97A146-9419-4B25-6472-5C599FEA5359">
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:06:54 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="932EA3E1-1643-EEDB-DEDA-AA79DFD1DF54" value="true"/>
+<item key="64B10CE2-47DA-E405-B7FC-8E781498443D" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -46,6 +62,10 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:09:16 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="932EA3E1-1643-EEDB-DEDA-AA79DFD1DF54" value="true"/>
+<item key="64B10CE2-47DA-E405-B7FC-8E781498443D" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -56,6 +76,10 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:09:45 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="932EA3E1-1643-EEDB-DEDA-AA79DFD1DF54" value="true"/>
+<item key="64B10CE2-47DA-E405-B7FC-8E781498443D" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT021</logicalDatatype>
@@ -66,6 +90,10 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:11:31 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="932EA3E1-1643-EEDB-DEDA-AA79DFD1DF54" value="true"/>
+<item key="64B10CE2-47DA-E405-B7FC-8E781498443D" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,6 +106,10 @@
 <createdBy>shene</createdBy>
 <createdTime>2021-09-14 09:12:06 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="932EA3E1-1643-EEDB-DEDA-AA79DFD1DF54" value="true"/>
+<item key="64B10CE2-47DA-E405-B7FC-8E781498443D" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <newElementsIDs>6D0BE962-AB61-ADF3-EF11-F279F1663595</newElementsIDs>
 <usedAttributes>
