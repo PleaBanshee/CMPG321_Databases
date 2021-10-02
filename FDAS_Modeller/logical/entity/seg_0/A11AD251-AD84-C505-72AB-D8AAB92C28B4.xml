@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A11AD251-AD84-C505-72AB-D8AAB92C28B4" name="FIRE EVENT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A11AD251-AD84-C505-72AB-D8AAB92C28B4" name="FIRE_EVENT">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
 <generatorID>59D357B0-918C-D41D-D3F0-703FEA291F29</generatorID>
