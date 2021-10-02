@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PROPERTY_TYPE" directorySegmentName="seg_0" id="7AA4EE75-F186-A3B2-464A-11A192779953">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Prop_Type" id="1FAF44E6-8222-2B48-7C43-EE656AD43A5C">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Type_ID" id="4116C4C7-9C92-A4AC-6EF0-1DB8C9680B8D">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_PROP_TYPE" id="A2B96050-B229-33DC-3250-EE1760A7B06E">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="CHECK_PROP_TYPE" id="71857DD8-9323-4393-8B05-E4C86C9CD6AE">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UNQ_PROP_TYPE" id="C639FE09-E18E-C7E8-C51A-3F8252B1B24C">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

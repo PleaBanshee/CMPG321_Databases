@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="877C1F04-F26A-4DC6-BBB7-0BBDFE79E63E" name="BUILDING">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>09A5BA85-0D12-BD8A-4E31-158E40D01CE3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Building_ID" id="4BBDF62D-9345-6310-AA3D-096B53160627">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>CCA2D76D-C3B1-9282-9431-5BA440EB06A4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_ID" id="227D80F0-BEAC-4F48-C2DE-E2BCEEBBC43B">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>8A1BF8B3-0F6D-5B78-4E37-AF427485D2EB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A7025D29-0D7F-2F83-F4F8-2336A6A1E7C5" referredColumn="490E784C-D77D-AF95-6E8B-35F0CC275D10"/>
+</associations>
+</Column>
+<Column name="Insurance_Code" id="1ACCC236-FE55-F3BA-1D1B-0C7BC8B6FBE5">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>9057638B-324C-0911-E4F8-296267EB7F92</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C81CF6AC-54E0-A6EC-FF96-DABAEF3C9ECC" referredColumn="54359A22-3E85-418B-2AAF-F248DD88520F"/>
+</associations>
+</Column>
+<Column name="Date_Approved" id="F3C8A4E7-57B7-88F7-020B-D40E9F095182">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>65545E59-EDE3-0A4F-8CBB-ACA0FE15CFF9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D7DC8C3A-93AA-D9C9-3E57-D87B14DC9104</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Building_Size" id="B9F42D7A-6C59-A6B3-8EBF-DA4F82BE3AB9">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>6D1A770D-97A7-BC51-09BD-07CB3455ED5F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>9005183D-BDF1-BA3A-EDA9-67AE75B02E51</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Building_Class" id="308F36D2-613E-AC06-5421-5DA9FEBFAD42">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>65B3B5F8-2618-154B-2056-F8C25119C3ED</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>EAA633FE-B130-C1A1-F69F-74073F869B2A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD671FE0-E4EB-7EF5-FF98-B323BB08AFC9" name="PK_BUILDING">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>2318BF18-43AF-CB3C-6DCE-1D9AFAE5BC8D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BBDF62D-9345-6310-AA3D-096B53160627"/>
+<colUsage columnID="227D80F0-BEAC-4F48-C2DE-E2BCEEBBC43B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00780D67-1D24-2F86-F1C1-AF97306E7A75" name="FK1_BUILDING">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="227D80F0-BEAC-4F48-C2DE-E2BCEEBBC43B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44E34771-26BA-8A62-61EB-32209E32B474" name="FK2_BUILDING">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ACCC236-FE55-F3BA-1D1B-0C7BC8B6FBE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19258B81-0562-9F7A-930A-6FE16385A891" name="INSURANCE">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>C25E279D-03B9-CE0D-0A2B-3A26DB40E654</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Insurance_Code" id="54359A22-3E85-418B-2AAF-F248DD88520F">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>F97B2CAA-BF52-6EC2-47F0-37F3E77CAAF7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Insurance_Name" id="C9EBBCC8-C63B-3B04-B752-0A4ACBB61BE1">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>20C011AD-DBD1-D46B-C96F-BA61AE4BCC7F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E24EFDF-1103-910B-A04A-28964372278C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Insurance_ContactNum" id="21A83D0B-B8F1-69A7-0F9B-0C6AE3E1439F">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>3AD892E6-C45B-AF07-4616-8C47D3585656</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>6095A542-7165-D6E2-269E-FA19D90ACE04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A49114E5-DAC0-38F2-6DC2-176F98FE743A" name="PK_INSURANCE">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>60213213-65A8-54B0-7BF7-17229EE35D88</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54359A22-3E85-418B-2AAF-F248DD88520F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6E196A0-B84A-2FD6-2000-89C09D5AEB67" name="UNQ_INSURANCE_CONTACTNUM">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>022D0571-B93D-1D34-E5C3-F653BD55B03C</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21A83D0B-B8F1-69A7-0F9B-0C6AE3E1439F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHECK_INSURANCE_PHONE" directorySegmentName="seg_0" id="B3CBEC3B-52FE-5280-11FE-218B4D82667B">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>9376AD0E-9D2F-9E64-6193-8C644F751714</importedID>
+<rule><![CDATA[LENGTH(Insurance_ContactNum) = 10]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

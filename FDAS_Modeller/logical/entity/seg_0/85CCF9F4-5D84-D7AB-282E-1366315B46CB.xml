@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85CCF9F4-5D84-D7AB-282E-1366315B46CB" name="ASSESSOR">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>B2C91D19-2E9C-00F5-D6A9-4DBCEDD35AE8</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Assessor_ID" id="4681C804-E7CD-AD64-698E-CED3EA73B881">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>928E4982-D5AD-960A-FE78-52C3CAE4D957</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Assessor_Name" id="A84D6AEA-A477-BA45-4A2C-D4C2B9A9AB4C">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>CA42BDF3-0FE7-661F-E718-4F691F8699A8</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Assessor_Surname" id="10903E30-D828-2B34-00C5-ED5AFABD8EB3">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>82C77803-0D41-F99A-AE16-247CB0A8255E</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Assessor_ContactNum" id="20CD4863-C970-96CE-EE4D-15729664E259">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>5F5D166A-3763-41D3-3B10-CB41549689BE</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A8E94CC7-D54B-9F8C-60C2-E30B3EA084A8" name="PK ASSESSOR">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>51C6E34B-70F8-6E0E-6CA9-92B943EBFE59</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4681C804-E7CD-AD64-698E-CED3EA73B881</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F7E35DF2-F0ED-EAFA-056A-832D51FC56E6" name="UNQ ASSESSOR CONTACTNUM">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>1C4B229A-AB43-8964-1A96-E6BD177E1E87</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>20CD4863-C970-96CE-EE4D-15729664E259</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ASSESSOR_HISTORY" directorySegmentName="seg_0" id="439B89AC-BC91-6BC4-D62D-EBD32CC410AA">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Start_Date" id="80F59AF7-914A-ED70-D0BA-C212D2F66F5D">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Insurance_Code" id="86F16305-62D6-4526-DD17-A176145F4F0A">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Assessor_ID" id="935DD7C4-8C92-787D-F76E-0D31CF70CB16">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="End_Date" id="BCAA02C6-DA82-3ACC-F3CD-BFB3BF5124E1">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK1_ASSESSOR_HISTORY" id="99CF4B7A-66C8-1AEA-2ACC-617B6069002E">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK2_ASSESSOR_HISTORY" id="B23F15EF-C418-1326-0F63-4F7319B8B589">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_ASSESSOR_HISTORY" id="C5DD504B-E1FA-771F-F31E-C9532947D9E2">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

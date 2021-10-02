@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK2_BUILDING" directorySegmentName="seg_0" id="20BE0D16-EA62-D2D1-B74B-90F28FB25F27">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>C81CF6AC-54E0-A6EC-FF96-DABAEF3C9ECC</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<sourcePk>F62405D5-5A44-D536-3E45-A485A20CB388</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>943EC1FF-B906-1B48-349F-817DF465458C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>304706B0-8035-6EAC-CB33-0503FED0C7C7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

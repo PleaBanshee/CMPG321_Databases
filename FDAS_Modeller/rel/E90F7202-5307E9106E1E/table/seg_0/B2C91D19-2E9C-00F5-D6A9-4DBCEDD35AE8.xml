@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2C91D19-2E9C-00F5-D6A9-4DBCEDD35AE8" name="ASSESSOR">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>0DB8A1F6-1653-502B-30F9-824A891D117B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Assessor_ID" id="928E4982-D5AD-960A-FE78-52C3CAE4D957">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>7FC2C149-4104-86BB-A482-61FB8E757E3E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Assessor_Name" id="CA42BDF3-0FE7-661F-E718-4F691F8699A8">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>16F0CD06-0A39-CE19-649E-36570A0D5221</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E24EFDF-1103-910B-A04A-28964372278C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Assessor_Surname" id="82C77803-0D41-F99A-AE16-247CB0A8255E">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>6DDF2844-112F-ED8C-C453-63666442FA1D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E24EFDF-1103-910B-A04A-28964372278C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Assessor_ContactNum" id="5F5D166A-3763-41D3-3B10-CB41549689BE">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>A760238A-6AD7-F488-14FF-012799C493BE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>6095A542-7165-D6E2-269E-FA19D90ACE04</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51C6E34B-70F8-6E0E-6CA9-92B943EBFE59" name="PK_ASSESSOR">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>F8151581-0896-D25D-2A3F-F664E4B3DFBC</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="928E4982-D5AD-960A-FE78-52C3CAE4D957"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C4B229A-AB43-8964-1A96-E6BD177E1E87" name="UNQ_ASSESSOR_CONTACTNUM">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>1083B75B-E9D0-B2E1-83D9-F5E655C8F1A1</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F5D166A-3763-41D3-3B10-CB41549689BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CHECK_PHONE" directorySegmentName="seg_0" id="FA9D41AC-5316-4842-BB80-EEAC1CA490F1">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>0A3D8995-3E08-1134-5681-F7B84292C3ED</importedID>
+<rule><![CDATA[LENGTH(Assessor_ContactNum) = 10]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

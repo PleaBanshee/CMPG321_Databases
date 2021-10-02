@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK3_DAMAGE_COST" directorySegmentName="seg_0" id="0957356C-8D37-1747-06D7-430C3D7D2097">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>6ECA2055-EC29-AF1D-D930-FCDCA6ADBF3C</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<sourcePk>A8E94CC7-D54B-9F8C-60C2-E30B3EA084A8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>85CCF9F4-5D84-D7AB-282E-1366315B46CB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>33D69470-4614-F354-B061-162C7C49596D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

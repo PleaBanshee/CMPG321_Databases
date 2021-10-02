@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7553518C-4DA7-3FE0-8D54-50CD045F6C7E" containerWithKeyObject="439B89AC-BC91-6BC4-D62D-EBD32CC410AA" localFKIndex="B23F15EF-C418-1326-0F63-4F7319B8B589" name="FK2_ASSESSOR_HISTORY">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>9590B836-DD39-6F96-866E-1B632AEE2E2D</importedID>
+<referredTableLongName>ASSESSOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B2C91D19-2E9C-00F5-D6A9-4DBCEDD35AE8</referredTableID>
+<keyObject>51C6E34B-70F8-6E0E-6CA9-92B943EBFE59</keyObject>
+<referredKeyID>51C6E34B-70F8-6E0E-6CA9-92B943EBFE59</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Assessor_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK1_ASSESSOR_HISTORY" directorySegmentName="seg_0" id="B5232159-4582-B40F-B75E-C658BD4D20F7">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<generatorID>A201BE46-2A46-AA0E-2813-3BA95D30E63C</generatorID>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<sourcePk>F62405D5-5A44-D536-3E45-A485A20CB388</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>943EC1FF-B906-1B48-349F-817DF465458C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DB2834F1-9B02-39A3-9AE2-623D7F2ECF26</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="202D64D7-DDA8-FF2F-0D13-64A60EC8BD4E" mainViewID="E62C761B-3989-04DF-EA74-DD97D7EA1024">
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="E022FEAD-D072-4F22-9535-B4CE0759B372">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 18:01:49 UTC</createdTime>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
+</ProcessModel>

@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60403463-C413-E963-AB4E-9C27A5E54FA9" name="PROPERTY">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>05512E06-9EE7-D00D-9AD3-851B0875BED8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prop_ID" id="490E784C-D77D-AF95-6E8B-35F0CC275D10">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>75082F4C-569B-FF53-7062-8C6A27345906</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LGA_Code" id="2FCBD35F-1D27-09C2-ACE7-D74232EEA106">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>C61A9110-0E2E-2934-6FB1-277F2DB2E16A</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="811F7CF3-9021-05DB-D91C-0FB1F3428633" referredColumn="678D0D05-10E4-A7F3-E065-731DA117C948"/>
+</associations>
+</Column>
+<Column name="Type_ID" id="579638AA-BA6A-1868-EB3D-9AC8DA50C482">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>387863A8-9919-3D9A-08CC-632C145DE9AD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B16E89F4-5D8F-6E1E-C417-A9E75D631EA1" referredColumn="4116C4C7-9C92-A4AC-6EF0-1DB8C9680B8D"/>
+</associations>
+</Column>
+<Column name="Owner_ID" id="00B0E999-9E6D-CA36-13AE-426830CD1A11">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>43989B68-E300-B3AB-B8FC-C00CF4B9B810</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28406BB9-22EE-39A7-EBCD-B4DB301FB0DC" referredColumn="F7823512-ACFA-7188-AE3C-A3C7B768ADC3"/>
+</associations>
+</Column>
+<Column name="Prop_City" id="9A0FC031-CFFE-09AE-60E8-327EE1998934">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>1D005BCF-0DE5-1D4D-0159-E9959E99513F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E24EFDF-1103-910B-A04A-28964372278C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_Suburb" id="005E0C61-0F35-ECBE-128E-6CA66A4702B3">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>DB5468E3-2303-9843-6FDD-89CB77CF3073</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E24EFDF-1103-910B-A04A-28964372278C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_StreetName" id="C887EADF-E1C2-E606-A229-4BF77144ED90">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>7BEF4FC2-283C-C9F8-6F75-A7A4C50DCAFA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>8E24EFDF-1103-910B-A04A-28964372278C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prop_Size" id="79A15351-5F14-CB53-056F-EAC7BEB606CE">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>05A44F85-37DD-BF9C-5CFB-B0FC8297A27B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<domain>3BC14103-E3F3-9380-2263-21A88F4B1873</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E48E66C5-0809-02EF-2256-48F7A4BB10B8" name="PK_PROPERTY">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>C2B6D2C3-228D-2074-F389-ECC3008F4C35</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="490E784C-D77D-AF95-6E8B-35F0CC275D10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD4E64D4-EC71-A3C1-709A-ACBE7366D099" name="FK1_PROPERTY">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FCBD35F-1D27-09C2-ACE7-D74232EEA106"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35252B92-B91D-2871-A015-9A219F710402" name="FK2_PROPERTY">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="579638AA-BA6A-1868-EB3D-9AC8DA50C482"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECB2F074-49CA-C3AF-1C44-282219D3EDCA" name="FK3_PROPERTY">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B0E999-9E6D-CA36-13AE-426830CD1A11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
