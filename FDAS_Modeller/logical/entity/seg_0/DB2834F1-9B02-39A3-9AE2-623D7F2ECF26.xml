@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB2834F1-9B02-39A3-9AE2-623D7F2ECF26" name="ASSESSOR HISTORY">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB2834F1-9B02-39A3-9AE2-623D7F2ECF26" name="ASSESSOR_HISTORY">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
 <generatorID>439B89AC-BC91-6BC4-D62D-EBD32CC410AA</generatorID>
@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Assessor_ID" id="B6F9756E-DBD2-2CA9-D038-480BA9B3AED0">
 <createdBy>Llewellyn</createdBy>
@@ -40,10 +40,11 @@
 <item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
 </engineerTo>
 <referedAttribute>4681C804-E7CD-AD64-698E-CED3EA73B881</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Start_Date" id="A38CDA44-2840-73CA-E1AE-302ABEC4F3BF">
 <createdBy>Llewellyn</createdBy>
