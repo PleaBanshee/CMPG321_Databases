@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="039A6777-92F5-C098-2F22-098EDC0A8DB5" name="FIRE_LGA">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>10007722-230A-BAAD-E1B8-BAD92BCABFF1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Event_ID" id="0642DAE1-F06F-953D-ABB7-1A771EB75CCC">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>E0CAC31F-49BF-8F6C-85DF-3038DF584824</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="905A37BC-064B-47C4-A9B1-38003304FDFB" referredColumn="34F27815-5171-EBFD-54A9-1B9173DC5AF5"/>
+</associations>
+</Column>
+<Column name="LGA_Code" id="D44AA91C-B4C8-7F13-3F0D-764DBBD10D2A">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>5BE79BE8-8623-8B11-D852-B551FCE6D412</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CFEB6684-9054-6232-3A4E-AAFB39658BB9" referredColumn="678D0D05-10E4-A7F3-E065-731DA117C948"/>
+</associations>
+</Column>
+<Column name="Event_Date" id="500807C2-C695-4303-A7DA-EEA47D1B2FD0">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>80A89BE7-B549-245C-3BDD-EA194CCE4143</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D7DC8C3A-93AA-D9C9-3E57-D87B14DC9104</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6311CEA5-2F85-0359-17EA-AB587272BF6F" name="PK_FIRE_LGA">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>A2367CAA-92BC-5F21-E26E-CD0E7C714D48</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0642DAE1-F06F-953D-ABB7-1A771EB75CCC"/>
+<colUsage columnID="D44AA91C-B4C8-7F13-3F0D-764DBBD10D2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33CC773C-5A7C-9166-462A-A79DC267A0FE" name="FK1_FIRE_LGA">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0642DAE1-F06F-953D-ABB7-1A771EB75CCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9C84FFD-5D2A-937D-0D88-9D84091F3E2B" name="FK2_FIRE_LGA">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D44AA91C-B4C8-7F13-3F0D-764DBBD10D2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

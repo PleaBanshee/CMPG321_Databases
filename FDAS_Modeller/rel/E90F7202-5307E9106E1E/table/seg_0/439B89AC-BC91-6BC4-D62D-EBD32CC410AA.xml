@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="439B89AC-BC91-6BC4-D62D-EBD32CC410AA" name="ASSESSOR_HISTORY">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>096A16A0-D770-7F13-4603-126AFB36E5CF</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Insurance_Code" id="86F16305-62D6-4526-DD17-A176145F4F0A">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>266075E6-BECD-C6E2-D64D-ECEEDD0FD6D2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A201BE46-2A46-AA0E-2813-3BA95D30E63C" referredColumn="54359A22-3E85-418B-2AAF-F248DD88520F"/>
+</associations>
+</Column>
+<Column name="Assessor_ID" id="935DD7C4-8C92-787D-F76E-0D31CF70CB16">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>4EF899A2-27DB-4194-42F4-8E6848BE7543</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6EC84F56-0C2D-A4F8-E665-AF91C4C6BEEE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7553518C-4DA7-3FE0-8D54-50CD045F6C7E" referredColumn="928E4982-D5AD-960A-FE78-52C3CAE4D957"/>
+</associations>
+</Column>
+<Column name="Start_Date" id="80F59AF7-914A-ED70-D0BA-C212D2F66F5D">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>209905DD-A3F1-6071-5323-8E1156E923AC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D7DC8C3A-93AA-D9C9-3E57-D87B14DC9104</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Date" id="BCAA02C6-DA82-3ACC-F3CD-BFB3BF5124E1">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>3D4F7F97-18F6-381E-ECAC-67CF725E4765</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>D7DC8C3A-93AA-D9C9-3E57-D87B14DC9104</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5DD504B-E1FA-771F-F31E-C9532947D9E2" name="PK_ASSESSOR_HISTORY">
+<sourceDDLFile>CREATE_TABLES.sql</sourceDDLFile>
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<importedID>CCFE8B13-F71C-6324-82E5-E87BC8D23FC3</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F16305-62D6-4526-DD17-A176145F4F0A"/>
+<colUsage columnID="935DD7C4-8C92-787D-F76E-0D31CF70CB16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99CF4B7A-66C8-1AEA-2ACC-617B6069002E" name="FK1_ASSESSOR_HISTORY">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F16305-62D6-4526-DD17-A176145F4F0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B23F15EF-C418-1326-0F63-4F7319B8B589" name="FK2_ASSESSOR_HISTORY">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-02 19:34:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="935DD7C4-8C92-787D-F76E-0D31CF70CB16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
