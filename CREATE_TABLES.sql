@@ -1,4 +1,4 @@
---Create Fire Event
+-- Create Fire Event
 CREATE TABLE FIRE_EVENT (
     Event_ID NUMBER(10) CONSTRAINT PK_FIRE_EVENT PRIMARY KEY,
     Event_Name VARCHAR2(50) NOT NULL,
