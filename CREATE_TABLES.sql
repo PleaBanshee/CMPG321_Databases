@@ -32,7 +32,7 @@ CREATE TABLE OWNER_TYPE (
 --Create Property Type(Residential, Farm or Business)
 CREATE TABLE PROPERTY_TYPE (
     Type_ID NUMBER(10) CONSTRAINT PK_PROP_TYPE PRIMARY KEY,
-    Prop_Type CHAR(1) NOT NULL,
+    Prop_Type VARCHAR2(25) NOT NULL,
     CONSTRAINT UNQ_PROP_TYPE UNIQUE(Prop_Type),
     CONSTRAINT CHECK_PROP_TYPE CHECK(Prop_Type IN ('Residential', 'Farm', 'Business'))
 );
