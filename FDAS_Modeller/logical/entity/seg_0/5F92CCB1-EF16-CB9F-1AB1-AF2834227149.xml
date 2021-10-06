@@ -131,6 +131,20 @@
 <dataTypePrecision>10</dataTypePrecision>
 <ownDataTypeParameters>,10,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Prop_Name" id="ECD3DACA-28DB-AD6E-F320-EE45EC5D4851">
+<createdBy>Llewellyn</createdBy>
+<createdTime>2021-10-06 19:35:19 UTC</createdTime>
+<ownerDesignName>FDAS_Modeller</ownerDesignName>
+<engineerTo>
+<item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D0DAEE57-4D9B-30C9-E513-DBA953276D58" name="PK PROPERTY">
