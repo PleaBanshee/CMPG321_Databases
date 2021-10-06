@@ -22,8 +22,15 @@ WHERE Insurance_Name = 'Old Mutual';
 
 --List of assessor histories (between dates)
 --Number of assessments done by a assessor
+SELECT ASSESSOR.Assessor_Name AS Name,ASSESSOR.Assessor_Surname AS Surname,(COUNT(DAMAGE_COST.Assessor_ID)) AS "Number of Assessments" FROM DAMAGE_COST 
+INNER JOIN ASSESSOR ON DAMAGE_COST.Assessor_ID = ASSESSOR.Assessor_ID
+GROUP BY assessor.assessor_id, ASSESSOR.Assessor_Name, ASSESSOR.Assessor_Surname;
 --Overall (total) damage cost
---Damage Costs ASC/DESC
+SELECT SUM(Damage_Cost) AS "Total Damage Cost(R)" FROM DAMAGE_COST;
+--Damage Costs DESC
+SELECT DAMAGE_COST.Damage_Cost AS "Damage Cost(R)",property.prop_id AS "Property ID" FROM DAMAGE_COST
+INNER JOIN PROPERTY ON DAMAGE_COST.Prop_ID = PROPERTY.Prop_ID
+ORDER BY Damage_Cost DESC;
 
 --Number of buildings damaged by time period
 --Properties/Buildings by Size
