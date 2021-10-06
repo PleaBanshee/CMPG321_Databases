@@ -54,6 +54,26 @@ INNER JOIN PROPERTY ON DAMAGE_COST.Prop_ID = PROPERTY.Prop_ID
 ORDER BY Damage_Cost DESC;
 
 --Number of buildings damaged by time period
+SELECT Building_ID AS "Build_ID", Is_Destroyed AS "Destroyed"
+FROM Building
+NATURAL JOIN Damage_Cost
+WHERE Is_Destroyed = 'T'
+ORDER BY Event_Date;
+
 --Properties/Buildings by Size
+SELECT Building_ID AS "Build_ID", Prop_ID AS "Prop_ID"
+FROM Building
+NATURAL JOIN Property
+ORDER BY Building_Size;
+
 --All properties within a certain area
+SELECT Prop_ID AS "Prop_ID"
+FROM Property
+NATURAL JOIN Owner
+ORDER BY Prop_City;
+
 --Properties/buildings according to owner type or owner
+SELECT Prop_ID AS "Prop_ID", Owner_ID AS "Owner_ID"
+FROM Property
+NATURAL JOIN Owner
+ORDER BY Owner_Type;
