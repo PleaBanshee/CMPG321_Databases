@@ -158,7 +158,7 @@ INTO PROPERTY VALUES (14, 14, 3, 14, 'Protea Lodge', 'Middelburg', 'Dennesig', '
 INTO PROPERTY VALUES (15, 15, 3, 15, 'Leopard Inn', 'Pretoria', 'Menlo Park', 'Waterhog Street', 13)
 INTO PROPERTY VALUES (16, 16, 2, 16, 'Woolworths Food', 'Johannesburg', 'Rosebank', 'Impala Street', 14)
 INTO PROPERTY VALUES (17, 17, 1, 17, 'De Beer Farms', 'Nelspruit', 'Barberton', 'Otter Lane', 18)
-INTO PROPERTY VALUES (18, 18, 2, 18, 'Dischem', 'Pretoria', 'Faerie Glen', 'Locust Avenue', 19)
+INTO PROPERTY VALUES (18, 18, 2, 18, 'Dischem Pharmacy', 'Pretoria', 'Faerie Glen', 'Locust Avenue', 19)
 INTO PROPERTY VALUES (19, 19, 3, 19, 'Osprey Apartment', 'Kimberley', 'Ashburnham', 'Eland Lane', 32)
 INTO PROPERTY VALUES (20, 20, 3, 20, 'Kite House', 'Cape Town', 'Camps Bay', 'Jackal Lane', 7)                 
 SELECT * FROM DUAL;
