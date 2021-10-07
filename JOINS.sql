@@ -42,14 +42,20 @@ GROUP BY LGA.LGA_Name, FIRE_EVENT.Event_Name;
 --All owners sorted alphabetically be surname
 
 --List of assessor histories (between dates)
+
 --Number of assessments done by a assessor
-SELECT ASSESSOR.Assessor_Name AS Name,ASSESSOR.Assessor_Surname AS Surname,(COUNT(DAMAGE_COST.Assessor_ID)) AS "Number of Assessments" FROM DAMAGE_COST 
+SELECT ASSESSOR.Assessor_Name AS Name,ASSESSOR.Assessor_Surname AS Surname,(COUNT(DAMAGE_COST.Assessor_ID)) AS "Number of Assessments" 
+FROM DAMAGE_COST 
 INNER JOIN ASSESSOR ON DAMAGE_COST.Assessor_ID = ASSESSOR.Assessor_ID
 GROUP BY assessor.assessor_id, ASSESSOR.Assessor_Name, ASSESSOR.Assessor_Surname;
+
 --Overall (total) damage cost
-SELECT SUM(Damage_Cost) AS "Total Damage Cost(R)" FROM DAMAGE_COST;
+SELECT SUM(Damage_Cost) AS "Total Damage Cost(R)" 
+FROM DAMAGE_COST;
+
 --Damage Costs DESC
-SELECT DAMAGE_COST.Damage_Cost AS "Damage Cost(R)",PROPERTY.Prop_Name AS "Property" FROM DAMAGE_COST
+SELECT DAMAGE_COST.Damage_Cost AS "Damage Cost(R)",PROPERTY.Prop_Name AS "Property" 
+FROM DAMAGE_COST
 INNER JOIN PROPERTY ON DAMAGE_COST.Prop_ID = PROPERTY.Prop_ID
 ORDER BY Damage_Cost DESC;
 
