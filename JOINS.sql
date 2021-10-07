@@ -41,7 +41,15 @@ GROUP BY LGA.LGA_Name, FIRE_EVENT.Event_Name;
 --Owner contact details
 --All owners sorted alphabetically be surname
 
---List of assessor histories (between dates)
+SELECT CONCAT(ASSESSOR.Assessor_Name,CONCAT(' ',ASSESSOR.Assessor_Surname)) AS "Assessor",
+INSURANCE.Insurance_Name AS "Insurer",
+ASSESSOR_HISTORY.Start_Date AS "Employed date",ASSESSOR_HISTORY.End_Date AS "Termination Date"
+FROM ASSESSOR
+INNER JOIN ASSESSOR_HISTORY USING(Assessor_ID)
+INNER JOIN INSURANCE USING(Insurance_Code)
+WHERE ASSESSOR_HISTORY.Start_Date BETWEEN TO_DATE('2021/03/01','YYYY/MM/DD') AND TO_DATE('2021/06/26','YYYY/MM/DD')
+ORDER BY ASSESSOR_HISTORY.Start_Date;
+
 
 --Number of assessments done by a assessor
 SELECT ASSESSOR.Assessor_Name AS Name,ASSESSOR.Assessor_Surname AS Surname,(COUNT(DAMAGE_COST.Assessor_ID)) AS "Number of Assessments" 
