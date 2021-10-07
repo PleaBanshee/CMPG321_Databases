@@ -37,10 +37,30 @@ INNER JOIN FIRE_EVENT ON FIRE_LGA.Event_ID = FIRE_EVENT.Event_ID
 GROUP BY LGA.LGA_Name, FIRE_EVENT.Event_Name;
 
 --Highest body count per LGA
---List of owners by type
---Owner contact details
---All owners sorted alphabetically be surname
+SELECT lga.LGA_Name AS "Local Government Area", fe.Event_Name AS "Fire", fe.Event_LivesLost AS "Lives Lost" 
+FROM FIRE_EVENT fe JOIN FIRE_LGA flga ON fe.Event_ID = flga.Event_ID
+JOIN LGA lga ON flga.LGA_Code = lga.LGA_Code
+ORDER BY fe.Event_LivesLost DESC;
 
+--List of owners by type
+SELECT o.Owner_Name AS "Owner's Name", o.Owner_Surname AS "Owner's Surname", ot.Type_Description AS "Type of Owner"
+FROM OWNER o JOIN OWNER_TYPE ot
+USING (Owner_Type)
+ORDER BY Owner_Type ASC;
+
+--Owner contact details
+SELECT o.Owner_Name AS "Owner's Name", o.Owner_Surname AS "Owner's Surname", o.Owner_ContactNum AS "Contact Number", ot.Type_Description AS "Type of Owner"
+FROM OWNER o JOIN OWNER_TYPE ot
+USING (Owner_Type)
+ORDER BY o.Owner_ContactNum ASC;
+
+--All owners sorted alphabetically be surname
+SELECT o.Owner_Name AS "Owner's Name", o.Owner_Surname AS "Owner's Surname", ot.Type_Description AS "Type of Owner"
+FROM OWNER o JOIN OWNER_TYPE ot
+USING (Owner_Type)
+ORDER BY o.Owner_Surname ASC;
+
+--List of assessor histories (between dates)
 SELECT CONCAT(ASSESSOR.Assessor_Name,CONCAT(' ',ASSESSOR.Assessor_Surname)) AS "Assessor",
 INSURANCE.Insurance_Name AS "Insurer",
 ASSESSOR_HISTORY.Start_Date AS "Employed date",ASSESSOR_HISTORY.End_Date AS "Termination Date"

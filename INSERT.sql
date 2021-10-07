@@ -141,7 +141,7 @@ INTO OWNER VALUES (20,1,'0225897856', 'Anty','Joc', NULL, NULL, NULL)
 SELECT * FROM DUAL;
               
 INSERT ALL
-INTO PROPERTY VALUES (1, 1, 1, 1, 'Joubert & Seuns Boerdery', 'Nelspruit', 'Rockys Drift', 'Curlews Street', 10)
+INTO PROPERTY VALUES (1, 1, 1, 1, 'Joubert en Seuns Boerdery', 'Nelspruit', 'Rockys Drift', 'Curlews Street', 10)
 INTO PROPERTY VALUES (2, 2, 2, 2, 'Toyota SA', 'Pretoria', 'Garsfontein', 'Giraffe Avenue', 8)
 INTO PROPERTY VALUES (3, 3, 3, 3, 'Bateleur House', 'Port Elizabeth', 'Kensington', 'Crocodile Lane', 23)
 INTO PROPERTY VALUES (4, 4, 3, 4, 'Peregrine House', 'Johannesburg', 'Sandton', 'Dinosaur Street', 2)
