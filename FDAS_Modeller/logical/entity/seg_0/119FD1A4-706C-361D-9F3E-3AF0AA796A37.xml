@@ -19,6 +19,7 @@
 <Attribute name="Event_ID" id="FCD4C5A3-1E7C-4690-C27D-E6EEBC97B420">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identification of the Fire event in the Local Government Area]]></commentInRDBMS>
 <generatorID>6C1E5DF7-BA5A-8ACD-2049-714B88B5C08E</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -29,11 +30,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LGA_Code" id="B9D24507-6529-342A-BB13-94B9F13692D9">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Code of the Local Government Area]]></commentInRDBMS>
 <generatorID>44DC5F13-F3CC-55C4-FE28-237C2CF810B8</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -44,11 +46,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Event_Date" id="6549F20E-C530-4BC7-6111-9849BC6A30D7">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date of the fire in the Local Government Area]]></commentInRDBMS>
 <generatorID>500807C2-C695-4303-A7DA-EEA47D1B2FD0</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>

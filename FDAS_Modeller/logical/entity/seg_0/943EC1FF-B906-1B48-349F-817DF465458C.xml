@@ -19,6 +19,7 @@
 <Attribute name="Insurance_Code" id="1871C2EF-5A2E-9873-B4C7-C138645B929A">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Insurance code issued to the building]]></commentInRDBMS>
 <generatorID>54359A22-3E85-418B-2AAF-F248DD88520F</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -33,6 +34,7 @@
 <Attribute name="Insurance_Name" id="D36AF195-355D-421B-27A5-76E7D2F51DB0">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of insurance of the building]]></commentInRDBMS>
 <generatorID>C9EBBCC8-C63B-3B04-B752-0A4ACBB61BE1</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -47,6 +49,7 @@
 <Attribute name="Insurance_ContactNum" id="9E19C71C-65BB-4434-42D2-3E9A7CBFFE2B">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contact details of the Insurance]]></commentInRDBMS>
 <generatorID>21A83D0B-B8F1-69A7-0F9B-0C6AE3E1439F</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>

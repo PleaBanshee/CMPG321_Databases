@@ -19,6 +19,7 @@
 <Attribute name="LGA_Code" id="C3970A5D-8C23-9D36-8FD5-460F0FF3A9C5">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Code of the Local Government Area, serves as primary key.]]></commentInRDBMS>
 <generatorID>678D0D05-10E4-A7F3-E065-731DA117C948</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -33,6 +34,7 @@
 <Attribute name="LGA_Name" id="03486934-4680-BC7C-CE60-864592C6C6FF">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the Local Government Area]]></commentInRDBMS>
 <generatorID>D8EEB877-7CEB-C10C-6EB8-4A526158AC12</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -47,6 +49,7 @@
 <Attribute name="LGA_Area" id="3EC9565A-8232-5257-2ECA-744E70408682">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Local Government Area]]></commentInRDBMS>
 <generatorID>957EB385-A623-4405-B4BB-86D6F4B68F19</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -61,6 +64,7 @@
 <Attribute name="LGA_Size" id="90029E1F-7BD8-5262-57D9-077CCF3233D1">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Size of the Local Government Area]]></commentInRDBMS>
 <generatorID>433C2E23-4DD8-99FE-CDF4-8D2F7F26E781</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -75,6 +79,7 @@
 <Attribute name="LGA_CEO" id="D5D5BFB0-6DC4-F9BE-9D2D-B71FA50A297A">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chief of Executive Officer of the Local Government Area being referred to]]></commentInRDBMS>
 <generatorID>25C94C95-BC41-A5E9-9F94-240A6ED23019</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -89,6 +94,7 @@
 <Attribute name="LGA_ContactNum" id="01AFD9CD-7847-23DB-5919-83F24B2DEE59">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contact number of the Local Government Area]]></commentInRDBMS>
 <generatorID>9BE2D2A8-B546-3875-7D3C-28A005A5AFFB</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>

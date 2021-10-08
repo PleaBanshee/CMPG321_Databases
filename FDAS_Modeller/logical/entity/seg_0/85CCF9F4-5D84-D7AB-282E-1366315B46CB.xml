@@ -19,6 +19,7 @@
 <Attribute name="Assessor_ID" id="4681C804-E7CD-AD64-698E-CED3EA73B881">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identification of the Assessor]]></commentInRDBMS>
 <generatorID>928E4982-D5AD-960A-FE78-52C3CAE4D957</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -33,6 +34,7 @@
 <Attribute name="Assessor_Name" id="A84D6AEA-A477-BA45-4A2C-D4C2B9A9AB4C">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the Assessor]]></commentInRDBMS>
 <generatorID>CA42BDF3-0FE7-661F-E718-4F691F8699A8</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -47,6 +49,7 @@
 <Attribute name="Assessor_Surname" id="10903E30-D828-2B34-00C5-ED5AFABD8EB3">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surname of the Assessor]]></commentInRDBMS>
 <generatorID>82C77803-0D41-F99A-AE16-247CB0A8255E</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -61,6 +64,7 @@
 <Attribute name="Assessor_ContactNum" id="20CD4863-C970-96CE-EE4D-15729664E259">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contact number of the Assessor]]></commentInRDBMS>
 <generatorID>5F5D166A-3763-41D3-3B10-CB41549689BE</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
