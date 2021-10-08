@@ -9,6 +9,17 @@
 
 -- predefined type, no DDL - XMLTYPE
 
+-- Group Members:
+-- [32969694 - L Anthony] – (Group Leader)
+-- [30010993 - MC Steyn]
+-- [28612337 - CL Isaacs]
+-- [31614132 - Z Stoltz]
+-- [31775357 - S Boshoff]
+-- [33648263 - L Steyn]
+-- [31591272 - MG Visagie]
+-- [28739213 - S Pietersen]
+-- [25909932 - N van der Linde]
+
 DROP TABLE FIRE_EVENT CASCADE CONSTRAINTS;
 DROP TABLE FIRE_LGA CASCADE CONSTRAINTS;
 DROP TABLE LGA CASCADE CONSTRAINTS;
