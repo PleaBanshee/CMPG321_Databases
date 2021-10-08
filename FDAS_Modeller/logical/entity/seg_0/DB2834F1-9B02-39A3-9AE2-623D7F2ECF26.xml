@@ -19,6 +19,7 @@
 <Attribute name="Insurance_Code" id="9D976EC6-5BEF-A3C9-C72B-46264A0874CF">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Insurance code issued to buillding]]></commentInRDBMS>
 <generatorID>B5232159-4582-B40F-B75E-C658BD4D20F7</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -29,11 +30,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Assessor_ID" id="B6F9756E-DBD2-2CA9-D038-480BA9B3AED0">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Assessor Identification ]]></commentInRDBMS>
 <generatorID>F80FE337-88E3-8C80-9B1B-9DD337414BA3</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -44,11 +46,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Start_Date" id="A38CDA44-2840-73CA-E1AE-302ABEC4F3BF">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Start date of the assessor]]></commentInRDBMS>
 <generatorID>80F59AF7-914A-ED70-D0BA-C212D2F66F5D</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -62,6 +65,7 @@
 <Attribute name="End_Date" id="1687698A-C44F-6640-F208-E9A3C6D756EA">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[End date of the assessor]]></commentInRDBMS>
 <generatorID>BCAA02C6-DA82-3ACC-F3CD-BFB3BF5124E1</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>

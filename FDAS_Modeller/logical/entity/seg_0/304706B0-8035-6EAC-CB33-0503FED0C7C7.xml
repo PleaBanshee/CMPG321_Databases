@@ -19,6 +19,7 @@
 <Attribute name="Building_ID" id="F46ED0DA-90F9-9286-7A88-8864A4A5477D">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identification number of the building]]></commentInRDBMS>
 <generatorID>4BBDF62D-9345-6310-AA3D-096B53160627</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -33,6 +34,7 @@
 <Attribute name="Prop_ID" id="14439637-AA5D-583F-4CEF-8EF96673EBB9">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identification number of the property]]></commentInRDBMS>
 <generatorID>A75D7AFF-8940-2C7F-9A6D-41582CCE95E6</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -43,11 +45,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Insurance_Code" id="E19CC85F-805E-D7BC-8C15-8A90EF706D92">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Insurance code of the building ]]></commentInRDBMS>
 <generatorID>20BE0D16-EA62-D2D1-B74B-90F28FB25F27</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -59,11 +62,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Date_Approved" id="E3408FA9-F5F7-1A0A-A666-7E19B0071CAC">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date building was approved]]></commentInRDBMS>
 <generatorID>F3C8A4E7-57B7-88F7-020B-D40E9F095182</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -77,6 +81,7 @@
 <Attribute name="Building_Size" id="EDB9B04A-9DEF-369A-6D7B-F8B45ACD9830">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Size of the  building]]></commentInRDBMS>
 <generatorID>B9F42D7A-6C59-A6B3-8EBF-DA4F82BE3AB9</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -91,6 +96,7 @@
 <Attribute name="Building_Class" id="E4B54D93-B2E6-8483-B1EA-727110A48EA1">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Class of the building]]></commentInRDBMS>
 <generatorID>308F36D2-613E-AC06-5421-5DA9FEBFAD42</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>

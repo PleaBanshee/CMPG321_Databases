@@ -19,6 +19,7 @@
 <Attribute name="Prop_ID" id="931BF128-7887-7351-F995-F2FAFF753307">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identification of the building]]></commentInRDBMS>
 <generatorID>490E784C-D77D-AF95-6E8B-35F0CC275D10</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -33,6 +34,7 @@
 <Attribute name="LGA_Code" id="A7A07210-DB5B-2446-E474-EBC606715B19">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Local Government Area Code ]]></commentInRDBMS>
 <generatorID>A9117C0C-1C48-F61D-15EF-47A46F0FDE95</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -43,11 +45,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Type_ID" id="130FABF2-85A0-B764-939D-8CA2BBDA392A">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Type of Property ]]></commentInRDBMS>
 <generatorID>FFC99515-67A7-1B24-0E03-550F05E53DEE</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -58,11 +61,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Owner_ID" id="4A436D83-2845-82A0-6329-DCEEB0FBB93B">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Owner identification number]]></commentInRDBMS>
 <generatorID>7650E381-FE55-3EA6-7248-B674878BA238</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -73,11 +77,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Prop_City" id="6028DAE2-C260-E12A-D9B3-6A58271CA7D6">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[City in which the property is]]></commentInRDBMS>
 <generatorID>9A0FC031-CFFE-09AE-60E8-327EE1998934</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -92,6 +97,7 @@
 <Attribute name="Prop_Suburb" id="D35EA2CD-2DC7-AD7A-3147-CBCAABC785A1">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Suburb of the property]]></commentInRDBMS>
 <generatorID>005E0C61-0F35-ECBE-128E-6CA66A4702B3</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -106,6 +112,7 @@
 <Attribute name="Prop_StreetName" id="6B8A6C7E-2BD6-C756-9620-1C434D216087">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Streetname of the property]]></commentInRDBMS>
 <generatorID>C887EADF-E1C2-E606-A229-4BF77144ED90</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -120,6 +127,7 @@
 <Attribute name="Prop_Size" id="E31093DD-5C90-961A-1FA5-6973F677C1E2">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Size of the property]]></commentInRDBMS>
 <generatorID>79A15351-5F14-CB53-056F-EAC7BEB606CE</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -134,6 +142,7 @@
 <Attribute name="Prop_Name" id="ECD3DACA-28DB-AD6E-F320-EE45EC5D4851">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-06 19:35:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the property]]></commentInRDBMS>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
 <item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>

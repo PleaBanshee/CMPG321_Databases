@@ -19,6 +19,7 @@
 <Attribute name="Event_ID" id="F2FF7770-11CE-5FBA-9670-C6E4C24E8141">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fire event Identification ]]></commentInRDBMS>
 <generatorID>34F27815-5171-EBFD-54A9-1B9173DC5AF5</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -33,6 +34,7 @@
 <Attribute name="Event_Name" id="ADBA5F54-AB35-1178-75C5-D362098D7F8A">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the Fire Event that occured]]></commentInRDBMS>
 <generatorID>AE918B03-2DD5-A643-80FA-8CD09BFA1E90</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -47,6 +49,7 @@
 <Attribute name="Event_Lat" id="2DB4C9DC-0650-98E2-15AD-41FF03B1668F">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fire Latitude reached]]></commentInRDBMS>
 <generatorID>4027D590-216D-9975-A555-C2F0D80AFFA5</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -61,6 +64,7 @@
 <Attribute name="Event_Long" id="2FEE650F-7A48-ECF6-E114-282ABCD99350">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fire longitude reached]]></commentInRDBMS>
 <generatorID>280FB495-A8C9-0D6D-0784-A7764B60728C</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -75,6 +79,7 @@
 <Attribute name="Event_AreaSize" id="0E8C3107-2E34-7DB6-2042-08BC14A4C310">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Area the fire damaged]]></commentInRDBMS>
 <generatorID>1716BA87-2E6E-BE04-796A-8AFB95DDEE25</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -89,6 +94,8 @@
 <Attribute name="Event_LivesLost" id="9B9B580B-62BB-0312-1206-D48CAAF98B02">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Number of lives lost during the fire
+]]></commentInRDBMS>
 <generatorID>9A7EA1DD-BD4D-4C15-27E1-54F66EEEDA0D</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>

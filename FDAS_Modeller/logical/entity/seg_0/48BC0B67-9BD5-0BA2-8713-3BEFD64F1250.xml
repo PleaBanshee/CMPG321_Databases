@@ -19,6 +19,7 @@
 <Attribute name="Owner_ID" id="891A63BF-2D0E-946B-2A53-6EE1B8BC32F2">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identification of the owner]]></commentInRDBMS>
 <generatorID>F7823512-ACFA-7188-AE3C-A3C7B768ADC3</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -33,12 +34,14 @@
 <Attribute name="Owner_Type" id="FBA70E2D-170A-C208-466B-30B6D52FC1D1">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Type of owner ]]></commentInRDBMS>
 <generatorID>28906AC3-4A39-560E-719E-B74AF6A81A04</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
 <item key="E90F7202-F891-3EB0-A74A-5307E9106E1E" value="true"/>
 </engineerTo>
 <referedAttribute>9074F35F-E2D7-4FB3-5E9F-B1723C67FBF9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
@@ -47,6 +50,7 @@
 <Attribute name="Owner_ContactNum" id="C9C8ADA7-F2EF-542E-6B68-0BE642869AD6">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contact number of the owner]]></commentInRDBMS>
 <generatorID>24E10559-7E71-DB3A-46DE-8758E502675B</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -61,6 +65,7 @@
 <Attribute name="Owner_Name" id="78C513D7-330A-2FF8-DF05-C7BFC1C191F8">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Name of the owner]]></commentInRDBMS>
 <generatorID>434C807E-5711-A81A-640A-850C228EF411</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -76,6 +81,7 @@
 <Attribute name="Owner_Surname" id="0EDAB0E0-50C0-1913-C9E2-C009571369F9">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Surname of the owner]]></commentInRDBMS>
 <generatorID>CCDEDDAF-9ADF-2473-90DE-C6114C5B4A50</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -91,6 +97,7 @@
 <Attribute name="Bus_Type" id="6910854D-C446-9F60-2C50-F92C5B4E145C">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Type of Business]]></commentInRDBMS>
 <generatorID>896933CA-368B-519D-7F73-66C771121175</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -106,6 +113,7 @@
 <Attribute name="Bus_Reg_Num" id="8210B06C-7E49-4EAE-481F-193CC15C7590">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Registration number of the business]]></commentInRDBMS>
 <generatorID>E64288B8-D3B5-BDB0-8254-19F1C2DD4D21</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -121,6 +129,7 @@
 <Attribute name="BC Employer" id="699886D6-A313-5A1A-2A1A-B6F02ACD6838">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employer of owner]]></commentInRDBMS>
 <generatorID>8BDEBDDC-832E-B9B4-F741-54490831528C</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>

@@ -19,6 +19,7 @@
 <Attribute name="Owner_Type" id="9074F35F-E2D7-4FB3-5E9F-B1723C67FBF9">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Type of owner]]></commentInRDBMS>
 <generatorID>7B5E649E-C283-891A-6474-2428C9D1B694</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -33,6 +34,7 @@
 <Attribute name="Type_Description" id="D798315E-D1BA-3961-5F5A-C386236A4F6F">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Description of the owner type]]></commentInRDBMS>
 <generatorID>543193CD-AA94-5B6C-D550-52DF9E0D495D</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>

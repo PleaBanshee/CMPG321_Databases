@@ -19,6 +19,7 @@
 <Attribute name="Building_ID" id="DBEE2BB1-7A16-3B7D-BB59-681185EB8248">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identification of the building]]></commentInRDBMS>
 <generatorID>A3638CC2-5B06-C113-F5C0-D19C8FE910F4</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -34,6 +35,7 @@
 <Attribute name="Event_ID" id="C3A2A34A-4117-D819-0CA3-3F05D2ED64EE">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Fire event Identification ]]></commentInRDBMS>
 <generatorID>D29B7A52-4E81-96D1-D972-CE99E9067FB9</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -45,11 +47,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Assessor_ID" id="48244FB8-3204-B1D8-D15C-628E93873C95">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identification if the Assessor]]></commentInRDBMS>
 <generatorID>0957356C-8D37-1747-06D7-430C3D7D2097</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -61,11 +64,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="LGA_Code" id="84437568-377B-ADAD-EFAF-F309796A5085">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Local Government Area code ]]></commentInRDBMS>
 <generatorID>2C962054-5B53-9963-5C34-DF678ED5547C</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -77,11 +81,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>10</dataTypePrecision>
-<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Damage_Cost" id="A3B6BE7C-CE41-92A3-4CA3-C66681A24B3C">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cost of the damage caused by the fire]]></commentInRDBMS>
 <generatorID>ED386326-F386-0703-798C-87230F3C4EC3</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
@@ -96,6 +101,7 @@
 <Attribute name="Is_Destroyed" id="A5889730-18F1-FEBB-F447-4495D22BA9F2">
 <createdBy>Llewellyn</createdBy>
 <createdTime>2021-10-02 19:34:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[States whether the area was destroyed or not]]></commentInRDBMS>
 <generatorID>E2B9E039-F3CA-E6C7-7BF4-3F8F5A7C0534</generatorID>
 <ownerDesignName>FDAS_Modeller</ownerDesignName>
 <engineerTo>
